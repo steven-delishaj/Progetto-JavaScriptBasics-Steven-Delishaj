@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Cabin', sans-serif;
+
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #8d8787;
+	border-radius: 20px;
+	width: 50vh;
+	height: 60vh;
+	background-color: white;
+}
+
+h1 {
+	font-size: 25vh;
+}
+
+.container-box-2{
+	width: 50vh;
+	display: flex;
+	justify-content: space-around;
+}
+
+.button-1, .button-2 {
+	font-size:10vh;
+	height: 14vh;
+	width: 14vh;
+	border-radius: 7vh;
+	cursor: pointer;
+	outline: none;
+	border: none;
+}
+
+.button-1:hover{
+	background-color: rgba(106, 155, 204, 0.7);
+} 
+
+.button-2:hover {
+	background-color: rgba(219, 52, 52, 0.87);
+}
+
+.button-1:active, .button-2:active {
+	transform: translateY(2px);
+}
+
+.button-1 {
+	background-color: rgb(106, 155, 204);
+}
+
+.button-2 {
+	background-color: #db3434;
+}
